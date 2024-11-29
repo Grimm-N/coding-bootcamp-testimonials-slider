@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- styles -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="media.css">
+
+<!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/grimm-favicon-white.webp">
+
+<!-- meta -->
+  <meta name="description" content="Frontend project featuring humorous snake characters like the Red Boiga and the Dog-headed Boa. Enjoy their funny reviews and quirky personalities in a playful, interactive design.">
+  <meta name="keywords" content="frontend, humorous snakes, html, css, javascript, Red Boiga, Dog-headed Boa, snake characters, funny reviews, interactive design, web development, frontend project, quirky personalities">
+  <meta name="author" content="Grimm-N">
+
+<!-- title -->
+  <title>Coding Bootcamp Testimonials Slider</title>
+
+</head>
+
+<body>
+  <section class="slider" aria-live="polite">
+
+    <article class="slider__item">
+      <div class="slider__image slider__image--orange">
+        <img class="snake__img" src="./images/boiga.webp" alt="Red Boiga snake with striking red color" />
+        <div class="slider__buttons">
+          <button class="slider__button slider__button--prev">
+            <img src="./images/icon-prev.svg" alt="Previous">
+          </button>
+          <button class="slider__button slider__button--next">
+            <img src="./images/icon-next.svg" alt="Next">
+          </button>
+        </div>
+      </div>
+      <div class="slider__content">
+        <img class="quotes__img" src="./images/pattern-quotes-orange.svg" alt="quotes">
+        <p class="slider__review"><span>"</span> I’m admired for my striking red color, but there’s more to me. I’m agile, graceful, and selectively approachable. The jungle is my runway, and I slither through life with elegance and style! <span>"</span></p>
+        <div class="slider__author">
+          <p class="slider__name slider__name--orange">Red Boiga</p>
+          <p class="slider__status">Boiga Nigriceps</p>
+        </div>
+      </div>
+    </article>
+  
+    <article class="slider__item">
+      <div class="slider__image slider__image--yellow">
+        <img class="snake__img" src="./images/boa.webp" alt="Dog-headed Boa snake with a unique head shape" />
+        <div class="slider__buttons">
+          <button class="slider__button slider__button--prev">
+            <img src="./images/icon-prev.svg" alt="Previous">
+          </button>
+          <button class="slider__button slider__button--next">
+            <img src="./images/icon-next.svg" alt="Next">
+          </button>
+        </div>
+      </div>
+      <div class="slider__content">
+        <img class="quotes__img" src="./images/pattern-quotes-yellow.svg" alt="quotes">
+        <p class="slider__review"><span>"</span> With serpent stealth and dog-like charm, I’ve always turned heads. My unique head shape isn’t a curse – it’s a true conversation starter. In the wild, wit, confidence, and personality always win! <span>"</span></p>
+        <div class="slider__author">
+          <p class="slider__name slider__name--yellow">Dog-headed Boa</p>
+        <p class="slider__status">Corallus Caninus</p>
+        </div>
+      </div>
+    </article>
+    <img class="bottom__img" src="./images/pattern-curve.svg" alt="">
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
